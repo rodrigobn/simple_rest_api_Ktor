@@ -1,0 +1,1 @@
+rootProject.name = "com.rodrigobn.ktor-simple-rest-api-crud"
