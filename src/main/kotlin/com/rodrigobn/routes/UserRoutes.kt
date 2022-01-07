@@ -49,6 +49,7 @@ fun Route.userRouting(){
                 Users.insert {
                     it[id] = user.id!! // !! <- Isso é para garantir que esse valor tenha mudado, pois esse valor inicia-se como nulo.
                     it[name] = user.name
+                    it[password] = user.password
                 }
             }
 
