@@ -32,6 +32,8 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
 
+    implementation("io.ktor:ktor-auth-jwt:$ktor_version")
+
     // banco de dados em memória, que será o H2, um banco de dados em Java
     implementation("com.h2database:h2:1.4.199")
 }
