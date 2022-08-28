@@ -1,5 +1,6 @@
 package com.rodrigobn.plugins
 
+import com.rodrigobn.routes.registerUserRoutes
 import io.ktor.routing.*
 import io.ktor.http.*
 import io.ktor.application.*
@@ -13,4 +14,6 @@ fun Application.configureRouting() {
                 call.respondText("Hello World!")
             }
     }
+
+    registerUserRoutes()
 }
